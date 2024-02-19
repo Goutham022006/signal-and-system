@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.1.7)  18 FEB 2024 20:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.1.7)  19 FEB 2024 12:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1092,13 +1092,13 @@ LaTeX Font Info:    Trying to load font information for OT1+txr on input line 4
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
-)
-No file discrete1.aux.
+) (./discrete1.aux)
 \openout1 = `discrete1.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 44.
 LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
 44.
+
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
@@ -1225,6 +1225,8 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 44.
 LaTeX Info: Redefining \pageref on input line 44.
 LaTeX Info: Redefining \nameref on input line 44.
+
+(./discrete1.out) (./discrete1.out)
 \@outlinefile=\write5
 \openout5 = `discrete1.out'.
 
@@ -1273,11 +1275,11 @@ Underfull \hbox (badness 1496) in paragraph at lines 7--7
 LaTeX Warning: Reference `eq:11.9.5.26.2' on page 1 undefined on input line 68.
 
 
-<figs/fig1.png, id=7, 398.48875pt x 262.9825pt>
+<figs/fig1.png, id=7, 462.528pt x 346.896pt>
 File: figs/fig1.png Graphic file (type png)
 <use figs/fig1.png>
 Package pdftex.def Info: figs/fig1.png  used on input line 86.
-(pdftex.def)             Requested size: 252.0pt x 166.30583pt.
+(pdftex.def)             Requested size: 252.0pt x 189.00427pt.
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
@@ -1286,22 +1288,13 @@ Package pdftex.def Info: figs/fig1.png  used on input line 86.
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `discrete1.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `discrete1.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+Package rerunfilecheck Info: File `discrete1.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 29574 strings out of 478287
- 582720 string characters out of 5849290
- 852499 words of memory out of 5000000
+ 29580 strings out of 478287
+ 582804 string characters out of 5849290
+ 852802 words of memory out of 5000000
  47115 multiletter control sequences out of 15000+600000
  548484 words of font info for 202 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
@@ -1315,7 +1308,7 @@ fb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsya.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/urw/times/utmri8a.pfb>
-Output written on discrete1.pdf (1 page, 65521 bytes).
+Output written on discrete1.pdf (1 page, 74129 bytes).
 PDF statistics:
  86 PDF objects out of 1000 (max. 8388607)
  62 compressed objects within 1 object stream

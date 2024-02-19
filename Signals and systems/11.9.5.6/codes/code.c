@@ -1,29 +1,28 @@
 #include <stdio.h>
 
-int calculate_y(int n) {
-    return (n + 1) * (13 + 2 * n);
-}
-
 int main() {
-    FILE *outputFile;
-    int n;
+    FILE *fp;
+    fp = fopen("ap_sum_data.txt", "w"); // Open file for writing
 
-    // Open a file for writing
-    outputFile = fopen("output.txt", "w");
-
-    if (outputFile == NULL) {
-        printf("Error opening the file.\n");
+    if (fp == NULL) {
+        printf("Error opening file!");
         return 1;
     }
 
-    // Calculate and write values to the file
-    for (n = 0; n <= 30; ++n) {
-        int result = calculate_y(n);
-        fprintf(outputFile, "%d %d\n", n, result);
+    int start = 13; // Starting term
+    int diff = 4;   // Common difference
+    int n = 22;     // Number of terms, including the 22nd term to be highlighted
+    int sum = 0;
+
+    printf("Sum of Arithmetic Progression:\n");
+    for (int i = 1; i <= n; i++) {
+        int term = start + (i - 1) * diff;
+        sum += term;
+        printf("%d\n", sum);
+        fprintf(fp, "%d\n", sum); // Write sum to file
     }
 
-    // Close the file
-    fclose(outputFile);
+    fclose(fp); // Close the file
     return 0;
 }
 

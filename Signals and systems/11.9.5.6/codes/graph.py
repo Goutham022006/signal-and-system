@@ -1,27 +1,19 @@
-import numpy as np
 import matplotlib.pyplot as plt
 
-# import the data from the text file
-data = np.loadtxt("output.txt", skiprows=1)
+def plot_ap_sum(data, highlight_index):
+    plt.stem(range(1, len(data) + 1), data, linefmt='b-', markerfmt='bo', basefmt=' ')
+    plt.stem([highlight_index], [data[highlight_index - 1]], linefmt='r-', markerfmt='ro', basefmt=' ')
+    plt.xlabel('Term Number')
+    plt.ylabel('Sum of Terms')
+    plt.title('Sum of Terms in Arithmetic Progression')
+    plt.savefig('fig1.png')
 
-# clear all the previous figures
-plt.close("all")
+# Read data from file
+with open('ap_sum_data.txt', 'r') as file:
+    data = [int(line.strip()) for line in file]
 
-# extract the first 24 terms of the data
-n = data[:30, 0]
-y_n = data[:30, 1]
-# plot the graph
-highlight_index = 21
-plt.scatter(n[highlight_index], y_n[highlight_index], color='red', marker='x', s=100)
-plt.stem(n, y_n, linefmt='b-', basefmt='d-', markerfmt='ro')
-plt.axhline(y=1210, color='green', linestyle='--')
+# Highlighted term index (assuming 1-indexed)
+highlighted_index = 22
 
-# Highlight the 21st term
-plt.annotate('21st term', xy=(n[highlight_index], y_n[highlight_index]), xytext=(-20,30),
-             textcoords='offset points', arrowprops=dict(arrowstyle='->', color='blue'))
+plot_ap_sum(data, highlighted_index)
 
-# Set labels and title
-plt.xlabel('n')
-plt.ylabel('y(n)')
-plt.grid(True)
-plt.show()
