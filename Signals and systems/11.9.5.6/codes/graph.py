@@ -16,5 +16,5 @@ plt.scatter(range(1, len(data) + 1), data, color='orange')
 
 plt.xlabel('Term Number')
 plt.ylabel('Sum of Terms')
-plt.show()
+plt.savefig('plot1.png')
 
