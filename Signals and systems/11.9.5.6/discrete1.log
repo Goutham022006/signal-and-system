@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.1.7)  19 FEB 2024 12:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.1.7)  19 FEB 2024 15:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1092,13 +1092,13 @@ LaTeX Font Info:    Trying to load font information for OT1+txr on input line 4
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
-) (./discrete1.aux)
+)
+No file discrete1.aux.
 \openout1 = `discrete1.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 44.
 LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
 44.
-
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
@@ -1225,8 +1225,6 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 44.
 LaTeX Info: Redefining \pageref on input line 44.
 LaTeX Info: Redefining \nameref on input line 44.
-
-(./discrete1.out) (./discrete1.out)
 \@outlinefile=\write5
 \openout5 = `discrete1.out'.
 
@@ -1288,13 +1286,22 @@ Package pdftex.def Info: figs/fig1.png  used on input line 86.
 
 LaTeX Warning: There were undefined references.
 
-Package rerunfilecheck Info: File `discrete1.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `discrete1.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `discrete1.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 29577 strings out of 478287
- 582774 string characters out of 5849290
- 852802 words of memory out of 5000000
+ 29571 strings out of 478287
+ 582690 string characters out of 5849290
+ 852499 words of memory out of 5000000
  47114 multiletter control sequences out of 15000+600000
  547430 words of font info for 200 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
