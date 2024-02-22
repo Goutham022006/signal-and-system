@@ -12,9 +12,8 @@ y_n = data[:24]
 highlighted_index = 21
 # plot the graph
 plt.stem(range(1, len(data) + 1), y_n, markerfmt='bo', linefmt='b-', basefmt='r-',label=r'Simulation') 
-plt.axhline(y=1210, color='green', linestyle='--',label='y=1210')
 plt.stem([highlighted_index], [data[highlighted_index - 1]], linefmt='r-', markerfmt='ro', basefmt=' ')
-
+plt.scatter(range(1, len(data) + 1), data, color='orange',marker='x',s=100,label=r'Analysis')
 # Set labels and title
 plt.xlabel('Term Number')
 plt.ylabel('y(n)')
