@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.1.7)  17 FEB 2024 19:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.1.7)  24 FEB 2024 23:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**question4.tex
-(./question4.tex
+**Gate.tex
+(./Gate.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-01-21>
 (/usr/share/texlive/texmf-dist/tex/latex/ieeetran/IEEEtran.cls
@@ -1092,13 +1092,13 @@ LaTeX Font Info:    Trying to load font information for OT1+txr on input line 4
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
-)
-No file question4.aux.
-\openout1 = `question4.aux'.
+) (./Gate.aux)
+\openout1 = `Gate.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 44.
 LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
 44.
+
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
@@ -1225,8 +1225,10 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 44.
 LaTeX Info: Redefining \pageref on input line 44.
 LaTeX Info: Redefining \nameref on input line 44.
+
+(./Gate.out) (./Gate.out)
 \@outlinefile=\write5
-\openout5 = `question4.out'.
+\openout5 = `Gate.out'.
 
 LaTeX Font Info:    Calculating math sizes for size <14> on input line 51.
 LaTeX Font Info:    Trying to load font information for U+txsya on input line 5
@@ -1274,45 +1276,38 @@ Underfull \hbox (badness 10000) in paragraph at lines 71--73
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--79
-
+Overfull \hbox (28.65385pt too wide) detected at line 77
+[]
  []
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
 
-] (./question4.aux)
-
-Package rerunfilecheck Warning: File `question4.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `question4.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+] (./Gate.aux)
+Package rerunfilecheck Info: File `Gate.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 29525 strings out of 478287
- 582105 string characters out of 5849290
- 846499 words of memory out of 5000000
+ 29527 strings out of 478287
+ 582056 string characters out of 5849290
+ 840691 words of memory out of 5000000
  47084 multiletter control sequences out of 15000+600000
  537318 words of font info for 174 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 101i,13n,96p,413b,325s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 101i,9n,96p,408b,325s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/public/txfonts/rtxsc.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/tx
 fonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsya.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/urw/times/utmri8a.pfb>
-Output written on question4.pdf (1 page, 50288 bytes).
+fb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Gate.pdf (1 page, 46700 bytes).
 PDF statistics:
- 78 PDF objects out of 1000 (max. 8388607)
- 56 compressed objects within 1 object stream
- 15 named destinations out of 1000 (max. 500000)
+ 68 PDF objects out of 1000 (max. 8388607)
+ 48 compressed objects within 1 object stream
+ 11 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

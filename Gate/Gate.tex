@@ -69,18 +69,10 @@ Initial condition $L_{1}$=1 and $L_{2}$=3
 \begin{align}
  L_{n}=L_{n-1}+L_{n-2}
 \end{align}
-Assume $L_{n}=r^n$\\
+Assume $L_{n+1}=x(n)$\\
 \begin{align}
- r^n=&r^{n-1}+r^{n-2}\\
- r^2=&r^1+1\\
- r_1,r_2=&\frac{1+\sqrt{5}}{2},\frac{1-\sqrt{5}}{2}
+ x(n)=&[x(n-1)+x(n-2)-3]u(n-2)+u(n)+2u(n-1)\\
+ X(z)=&[z^{-1}X(z)+z^{-2}X(z)-3]\frac{2z^{-1}}{1-z^{-1}}+\frac{1}{1-z^{-1}}+2\frac{z^{-2}}{1-z^{-1}}\\
+ X(z)&[1-z^{-1}-2z^{-2}-2z^{-3}]=1-6z^{-1}+2z^{-2}
  \end{align}
- now we have,\hspace{0.3cm}$L_{n}$=A$r_1^n$+B$r_2^n$\\
- \begin{align}
-     L_1=&Ar_1^1+Br_2^1=1\\
-     L_2=&Ar_1^2+Br_2^2=3\\
-     A=&1,B=1\\
-     L_n=&\brak{\frac{1+\sqrt{5}}{2}}^n+\brak{\frac{1-\sqrt{5}}{2}}^n
-\end{align}
-     $\therefore$ option $1$ is correct
 \end{document}
