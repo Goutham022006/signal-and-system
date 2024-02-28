@@ -68,27 +68,16 @@ The signal $x(t)=(t-1)^2u(t-1)$,where u(t) is unit-step function,has the Laplace
   
   $\mathcal{L}\{u(t)\}$
 \begin{align}
-    u(t) \leftrightarrow \frac{1}{s}  
-\end{align}
-    $\mathcal{L}\{tu(t)\}$ 
-\begin{align}
-    tu(t) \leftrightarrow \frac{1}{s^2}
-\end{align}
-\begin{center}
-     $ \vdots \notag$ \\
-\end{center}
-  $\mathcal{L}\{t^nu(t)\}$ 
-\begin{align}
-    t^nu(t) \leftrightarrow \frac{n!}{s^{n+1}} \label{IN_40.4}
+    t^nu(t) \leftrightarrow \frac{n!}{s^{n+1}} \label{IN_40.2}
 \end{align}
 if X(s) is Laplace transform of x(t) then,\\
 \begin{align}
-  x(t-t_0)&=e^{-st_0}X(s)\label{IN_40.5}
+  x(t-t_0)&=e^{-st_0}X(s)\label{IN_40.3}
 \end{align}
-using \ref{IN_40.4} and \ref{IN_40.5}\\
+using \ref{IN_40.2} and \ref{IN_40.3}\\
  $\mathcal{L}\{tu(t)\}$ 
 \begin{align}
-    (t-1)^2u(t-1) \system{L} \frac{2e^{-s}}{s^3}
+    (t-1)^2u(t-1) \leftrightarrow \frac{2e^{-s}}{s^3}
 \end{align}
 \begin{align}
     X(s)&=\frac{2e^{-s}}{s^3}\\
