@@ -96,8 +96,8 @@ Assume $L_{n+1}=x(n)$\\
 	
 	\begin{align}
 		x(n) &= \dfrac{\alpha+2}{(\alpha - \beta)} (\alpha^n u(n)) - \dfrac{\beta+2}{(\alpha - \beta)} (\beta^n u(n))\\
-	    x(n) &= \dfrac{(5+\sqrt{5})(1 + \sqrt{5})^{n+1} - (5-\sqrt{5})(1 - \sqrt{5})^{n+1} }{2^{n+1} \sqrt{5}} u(n)\\
-    	x(n) &= \dfrac{(1 + \sqrt{5})^{n+2} -(1 - \sqrt{5})^{n+2} }{2^{n+1}} u(n)
+	    x(n) &= \dfrac{(5+\sqrt{5})(1 + \sqrt{5})^{n} - (5-\sqrt{5})(1 - \sqrt{5})^{n} }{2^{n+1} \sqrt{5}} u(n)\\
+    	x(n) &= \dfrac{(1 + \sqrt{5})^{n+1} -(1 - \sqrt{5})^{n+1} }{2^{n+1}} u(n)
     \end{align}
 $\therefore$ $L_{n} =\brak{\frac{1+\sqrt{5}}{2}}^n+\brak{\frac{1-\sqrt{5}}{2}}^n$
 option 1 is correct.
@@ -105,7 +105,7 @@ option 1 is correct.
 \begin{figure}[h]
   \centering
   \includegraphics[width=\columnwidth]{figs/fig1.png}
-  \caption{X(s) = $2e^{-s}/s^3$}
+  \caption{X(s) = $L_{n}=\brak{\frac{1+\sqrt{5}}{2}}^n+\brak{\frac{1-\sqrt{5}}{2}}^n$}
   \label{fig:graph}
 \end{figure}
 \end{document}
