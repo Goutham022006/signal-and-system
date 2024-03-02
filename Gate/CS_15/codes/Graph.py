@@ -1,22 +1,20 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-# Function to calculate Ln
-def calculate_L(n):
-    phi = (1 + np.sqrt(5)) / 2
-    psi = (1 - np.sqrt(5)) / 2
-    return phi**n + psi**n
+# import the data from the text file
+data = np.loadtxt("output.txt", skiprows=1)
 
-# Generating values for n
-n_values = np.arange(0, 15)
-
-# Calculating Ln for each n
-L_values = calculate_L(n_values)
-
+# clear all the previous figures
+plt.close("all")
+# plot the graph
+y_n = data[:11]
+plt.stem(range(1, len(data) + 1), y_n, markerfmt='bo', linefmt='b-', basefmt='r-',label=r'Simulation') 
+plt.scatter(range(1, len(data) + 1), data, color='red',marker='x',s=100,label=r'Analysis')
+plt.xticks(range(1, len(data) + 1))
 # Plotting
-plt.plot(n_values, L_values, marker='o')
 plt.xlabel('n')
 plt.ylabel('$L_n$')
+# Add legend
+plt.legend()
 plt.grid(True)
 plt.savefig("fig1.png")
-
